@@ -4,7 +4,7 @@
   "description": "a todo list app.",
   "main": "app.js",
   "scripts": {
-    "build": ".\\node_modules\\webpack-cli\\bin\\cli.js --mode development .\\index.tsx"
+    "build": "node .\\node_modules\\webpack-cli\\bin\\cli.js --mode development ./.\\src\\index.tsx"
 
   },
   "author": "zaynah",
